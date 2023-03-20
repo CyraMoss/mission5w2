@@ -1,0 +1,89 @@
+@import 'variables';
+@import 'header';
+@import 'footer';
+
+// Headers
+h1 {
+  font-weight: $header1-font-weight;
+  font-size: $header1-font-size;
+}
+
+h2 {
+  font-weight: $header2-font-weight;
+  font-size: $header2-font-size;
+}
+
+h3 {
+  font-weight: $header3-font-weight;
+  font-size: $header3-font-size;
+}
+
+// Body
+p {
+  font-weight: $body1-font-weight;
+  font-size: $body1-font-size;
+}
+
+span {
+  font-weight: $body2-font-weight;
+  font-size: $body2-font-size;
+}
+// Button styles
+.button1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 16px;
+  gap: 4px;
+  background: $button1-background;
+  border-radius: 14px;
+  border: $button1-border;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: $button1-color;
+}
+
+.button2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 16px;
+  gap: 4px;
+  background: $button2-background;
+  border-radius: 14px;
+  border: $button2-border;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: $button2-color;
+}
+
+.button3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 16px;
+  gap: 4px;
+  background: $button3-background;
+  border-radius: 14px;
+  border: $button3-border;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: $button3-color;
+}
+.banner {
+  width: 100vw;
+  height: 161px;
+  object-fit: cover;
+}

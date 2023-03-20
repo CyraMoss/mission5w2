@@ -1,0 +1,47 @@
+// Headers
+$header1-font-weight: 500; // medium
+$header1-font-size: 60px;
+
+$header2-font-weight: 400; // regular
+$header2-font-size: 42px;
+
+$header3-font-weight: 700; // bold
+$header3-font-size: 20px;
+
+// Body
+$body1-font-weight: 500; // medium
+$body1-font-size: 24px;
+
+$body2-font-weight: 400; // regular
+$body2-font-size: 16px;
+
+// Colors
+$primary-color: #ee8022;
+$secondary-color: #244f75;
+$tertiary-color: #ffffff;
+
+// Buttons
+$button1-background: $primary-color;
+$button1-border: none;
+$button1-color: #ffffff;
+
+$button2-background: #ffffff;
+$button2-border: 1px solid $primary-color;
+$button2-color: $primary-color;
+
+$button3-background: #ffffff;
+$button3-border: 1px solid $secondary-color;
+$button3-color: $secondary-color;
+
+// search
+
+$search-input-background-color: #ffffff;
+$search-input-border: 1px solid #b6b6b6;
+$search-input-border-radius: 3px;
+$search-input-color: #b6b6b6;
+
+$search-button-background-color: #ffffff;
+$search-button-border: none;
+$search-button-cursor: pointer;
+$search-button-position: relative;
+$search-button-left: -28px;
