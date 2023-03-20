@@ -1,0 +1,19 @@
+.wholehelp {
+  display: flex;
+  justify-content: space-between;
+}
+.helpleft {
+  width: 50%;
+}
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.phnumber {
+  text-decoration: underline;
+}
+.helpimg {
+  width: 100%;
+}

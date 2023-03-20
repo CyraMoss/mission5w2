@@ -3,13 +3,23 @@ import React from 'react';
 export default function Explore() {
   return (
     <div>
-      <div className="dropd">
-        <div className="dropdtop">
-          <h2>EXPLORE CATEGORIES</h2>
+      <div className="explore">
+        <div className="dropd">
+          <div className="dropdtop">
+            <h3 className="blue">
+              <i class="fa-solid fa-arrow-down round"></i> EXPLORE CATEGORIES
+            </h3>
+          </div>
+          <div className="dropdbottom">
+            <span className="explorespan">
+              PCs, Laptops, Accessories & more
+            </span>
+          </div>
         </div>
-        <div className="dropdbottom">PCs, Laptops, Accessories & more</div>
         <div className="findbutton">
-          <button>Find A Store</button>
+          <button className="button3">
+            <i class="fa-solid fa-store"></i>Find A Store
+          </button>
         </div>
       </div>
       <hr />

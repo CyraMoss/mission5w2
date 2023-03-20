@@ -1,97 +1,14 @@
-@import 'variables.scss';
-
-.navbar {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-areas: 'logo search dropdown buttons';
-  justify-content: space-between;
+.wholeheader {
+  display: flex;
+}
+.headingpgraph {
+  width: 70%;
+  align-self: flex-start;
+  opacity: 55%;
+}
+.headerbutton {
+  width: 30%;
   align-items: center;
-  background-color: $secondary-color;
-  color: $tertiary-color;
-  height: 60px;
-  padding: 0 20px;
-  height: 111px;
-}
-
-.search-form {
   display: flex;
-  width: 80%;
-  height: 41px;
-  background-color: $search-input-background-color;
-  border-radius: $search-input-border-radius;
-}
-
-.search-input {
-  flex: 1;
-  border: $search-input-border;
-  color: $search-input-color;
-  padding-left: 28px;
-  border-right: 0px;
-}
-
-.search-button {
-  background-color: transparent;
-  cursor: $search-button-cursor;
-  border: $search-input-border;
-  border-left: 0px;
-}
-
-.navbar__logo img {
-  height: 32px;
-}
-.navbar__logo {
-  grid-area: logo;
-}
-.navbar__dropdown {
-  position: relative;
-  display: flex;
-  grid-area: dropdown;
-  justify-content: space-between;
-}
-
-.navbar__dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #fff;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.navbar__dropdown-content a {
-  color: #333;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.navbar__dropdown-content div {
-  margin-left: 10px;
-  margin-bottom: 10px;
-}
-.navbar__dropdown-item.active .navbar__dropdown-content {
-  display: block;
-}
-.navbar__dropdown-content a:hover {
-  color: $primary-color;
-  cursor: pointer;
-}
-.navbar__dropdown-item:hover {
-  color: $primary-color;
-  cursor: pointer;
-}
-.navbar__buttons {
-  grid-area: buttons;
-  display: flex;
-  justify-content: flex-end;
-  gap: 20px;
-}
-.navbar__search {
-  grid-area: search;
-}
-.navbar__dropdown-item {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  padding-left: 5%;
+  flex-direction: column;
 }

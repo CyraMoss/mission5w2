@@ -1,6 +1,11 @@
 @import 'variables';
 @import 'header';
 @import 'footer';
+@import 'help';
+@import 'explore';
+@import 'navbar';
+@import 'bread';
+@import 'commonsections';
 
 // Headers
 h1 {
@@ -86,4 +91,10 @@ span {
   width: 100vw;
   height: 161px;
   object-fit: cover;
+}
+.h2withbutton {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  align-items: center;
 }

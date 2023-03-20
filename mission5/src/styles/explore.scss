@@ -1,0 +1,26 @@
+.explore {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+}
+h3.blue {
+  color: $secondary-color;
+  margin-bottom: 0;
+}
+
+.explorespan {
+  opacity: 45%;
+  padding-left: 13%;
+}
+hr {
+  opacity: 15%;
+}
+.round {
+  border: 2px solid $secondary-color;
+  padding: 1% 2%;
+  border-radius: 50%;
+}
+.dropd {
+  white-space: nowrap;
+}

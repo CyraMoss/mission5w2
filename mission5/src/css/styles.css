@@ -1,3 +1,109 @@
+.wholeheader {
+  display: flex;
+}
+
+.headingpgraph {
+  width: 70%;
+  align-self: flex-start;
+  opacity: 55%;
+}
+
+.headerbutton {
+  width: 30%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  background-color: #313131;
+  padding-bottom: 2%;
+}
+
+.orange {
+  color: #ee8022;
+}
+
+.body2 {
+  color: #ffffff;
+  align-self: flex-start;
+  font-weight: 500;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerlists {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 2%;
+}
+
+.down {
+  margin-top: 4%;
+}
+
+.footericons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.wholehelp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.helpleft {
+  width: 50%;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.phnumber {
+  text-decoration: underline;
+}
+
+.helpimg {
+  width: 100%;
+}
+
+.explore {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+}
+
+h3.blue {
+  color: #244f75;
+  margin-bottom: 0;
+}
+
+.explorespan {
+  opacity: 45%;
+  padding-left: 13%;
+}
+
+hr {
+  opacity: 15%;
+}
+
+.round {
+  border: 2px solid #244f75;
+  padding: 1% 2%;
+  border-radius: 50%;
+}
+
+.dropd {
+  white-space: nowrap;
+}
+
 .navbar {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -102,39 +208,19 @@
   padding-left: 5%;
 }
 
-.footer {
-  background-color: #313131;
-  padding-bottom: 2%;
+.left {
+  justify-content: flex-start;
+  margin-left: 5%;
 }
 
-.orange {
-  color: #ee8022;
+.flex {
+  display: flex;
 }
 
-.body2 {
-  color: #ffffff;
-  align-self: flex-start;
-  font-weight: 500;
-}
-
-.row {
+.close {
   display: flex;
   flex-direction: column;
-}
-
-.footerlists {
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 2%;
-}
-
-.down {
-  margin-top: 4%;
-}
-
-.footericons {
-  display: flex;
-  justify-content: space-around;
+  align-items: flex-start;
 }
 
 h1 {
@@ -220,6 +306,13 @@ span {
   width: 100vw;
   height: 161px;
   object-fit: cover;
+}
+
+.h2withbutton {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  align-items: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
