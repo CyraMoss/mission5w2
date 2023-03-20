@@ -102,6 +102,41 @@
   padding-left: 5%;
 }
 
+.footer {
+  background-color: #313131;
+  padding-bottom: 2%;
+}
+
+.orange {
+  color: #ee8022;
+}
+
+.body2 {
+  color: #ffffff;
+  align-self: flex-start;
+  font-weight: 500;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerlists {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 2%;
+}
+
+.down {
+  margin-top: 4%;
+}
+
+.footericons {
+  display: flex;
+  justify-content: space-around;
+}
+
 h1 {
   font-weight: 500;
   font-size: 60px;
