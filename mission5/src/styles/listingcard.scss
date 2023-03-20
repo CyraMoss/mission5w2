@@ -1,0 +1,36 @@
+.listing-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr;
+  }
+
+  .listing-card {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      width: 200px;
+      max-width: 200px;
+      height: 200px;
+      margin-bottom: 1rem;
+    }
+
+    .round-border {
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #ccc;
+    }
+  }
+}
