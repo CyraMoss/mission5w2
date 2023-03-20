@@ -11,6 +11,7 @@ import HelpSection from './components/HelpSection';
 import Footer from './components/Footer';
 import ListingCard from './components/ListingCard';
 import Os from './components/Os';
+import ScreenSize from './components/ScreenSize';
 
 function App() {
   const [laptops, setLaptops] = useState([]);
@@ -59,6 +60,7 @@ function App() {
         <h2>By Screen Size</h2>
         <button className="button2">See All Laptops</button>
       </div>
+      <ScreenSize />
       <HelpSection />
       <Footer />
     </div>

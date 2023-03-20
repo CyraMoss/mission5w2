@@ -1,0 +1,54 @@
+.screensize-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+
+  .screensize-laptop {
+    width: 50%;
+    text-align: center;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .screensize-sections {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50%;
+  }
+
+  .screensize-section {
+    text-align: center;
+    width: 45%;
+
+    h2 {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    h3 {
+      margin-bottom: 0;
+      margin-top: 0;
+      opacity: 45%;
+    }
+  }
+
+  .screensize-circle {
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    width: 50%;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .screensize-section:not(:last-child) {
+    margin-right: 5%;
+  }
+}
